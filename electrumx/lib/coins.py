@@ -998,7 +998,7 @@ class Deimos(Coin):
     SHORTNAME = "DEI"
     NET = "mainnet"
     P2PKH_VERBYTE = bytes.fromhex("1F")
-    P2SH_VERBYTES = [bytes.fromhex("05")]
+    P2SH_VERBYTES = [bytes.fromhex("21")]
     WIF_BYTE = bytes.fromhex("8A")
     GENESIS_HASH = ('254ab08bacfe8f22c9c881acb97ce88d'
                     '95d4a80c4ffe8e02d0799f4e5e9e5056')
